@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Quote A Day</title>
+    <style type="text/css" rel="stylesheet">
+        #divQuote {
+            width:80%;
+            margin: 20% auto;
+            color: blueviolet;
+            text-align: center;
+            font: 20px/150% Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="divQuote" style=""></div>
+    <script type="text/javascript">
+        (function (){
+            var quotes = [
+                'We are what we repeatedly do. Excellence, therefore, is not an act but a habit. – Aristotle',
+                'The best way out is always through. – Robert Frost',
+                'Do not wait to strike till the iron is hot; but make it hot by striking. – William B. Sprague',
+                'Great spirits have always encountered violent opposition from mediocre minds. – Albert Einstein',
+                'Whether you think you can or think you can’t, you’re right. – Henry Ford',
+                'I know for sure that what we dwell on is who we become. – Oprah Winfrey',
+                'I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times, I’ve been \
+                    trusted to take the game winning shot and missed. I’ve failed over and over and over again in my \
+                    life. And that is why I succeed. – Michael Jordan',
+                'You must be the change you want to see in the world. – Mahatma Gandhi',
+                'What you get by achieving your goals is not as important as what you become by achieving your goals. \
+                    – Goethe',
+                'You can get everything in life you want if you will just help enough other people get what they want. \
+                    – Zig Ziglar'
+            ];
+
+            var quoteIndex = Math.floor(Math.random() * 9) + 1;
+            document.getElementById('divQuote').innerHTML = quotes[quoteIndex].replace('–', '<br />–');
+        })();
+    </script>
+</body>
+</html>
