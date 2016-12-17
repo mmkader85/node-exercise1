@@ -1,14 +1,14 @@
 {
-  "name": "node-project1",
+  "name": "node-exercise1",
   "version": "1.0.0",
-  "description": "edureka node project1",
+  "description": "edureka node exercise1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmkader85/node-project1.git"
+    "url": "git+https://github.com/mmkader85/node-exercise1.git"
   },
   "keywords": [
     "edureka",
@@ -17,9 +17,9 @@
   "author": "Muhammed Abdul Kader",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mmkader85/node-project1/issues"
+    "url": "https://github.com/mmkader85/node-exercise1/issues"
   },
-  "homepage": "https://github.com/mmkader85/node-project1#readme",
+  "homepage": "https://github.com/mmkader85/node-exercise1#readme",
   "dependencies": {
     "express": "^4.14.0"
   }
